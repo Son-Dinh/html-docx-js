@@ -13072,12 +13072,12 @@ module.exports = {
         case 'A5-portrait':
           return {
             height: 11906,
-            width: 8419,
+            width: 8390,
             orient: 'portrait'
           };
         case 'A5-landscape':
           return {
-            height: 8419,
+            height: 8390,
             width: 11906,
             orient: 'landscape'
           };

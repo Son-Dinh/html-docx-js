@@ -13069,6 +13069,18 @@ module.exports = {
       }
     }, (function() {
       switch (documentOptions.orientation) {
+        case 'A5-portrait':
+          return {
+            height: 11906,
+            width: 8419,
+            orient: 'portrait'
+          };
+        case 'A5-landscape':
+          return {
+            height: 8419,
+            width: 11906,
+            orient: 'landscape'
+          };
         case 'landscape':
           return {
             height: 12240,
